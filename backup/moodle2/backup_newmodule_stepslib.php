@@ -45,7 +45,7 @@
         // Define id annotations
  
         // Define file annotations
-        $newmodule->annotate_files('mod_newmodule', null, 'intro'); // This file area hasn't itemid
+        $newmodule->annotate_files('mod_newmodule', 'intro', null); // This file area hasn't itemid
  
         // Return the root element (choice), wrapped into standard activity structure
         return $this->prepare_activity_structure($newmodule);
